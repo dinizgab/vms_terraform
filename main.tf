@@ -10,10 +10,10 @@ terraform {
 }
 
 provider "proxmox" {
-  pm_api_url = "https//:pxhvmvv02:8006/api2/json"
+  pm_api_url = "add_api_url"
 
   pm_api_token_id     = "terraform@pam!Tokenterraform"
-  pm_api_token_secret = "5474816d-29c9-4ae5-ba17-726ec1b9e485"
+  pm_api_token_secret = "add_token_secret"
   pm_tls_insecure     = true
 }
 
